@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD06168017C348DC00177086 /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = DD06167F17C348DC00177086 /* 13.png */; };
+		DD06168217C36BCB00177086 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = DD06168117C36BCB00177086 /* love.png */; };
+		DD06168417C377E500177086 /* original.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DD06168317C377E500177086 /* original.jpeg */; };
+		DD10AEA117C615AB00912CDA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD10AEA017C615AB00912CDA /* StoreKit.framework */; };
+		DD10AEA317C6163300912CDA /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10AE9D17C6144C00912CDA /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD10AEA417C6163300912CDA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10AE9F17C6144C00912CDA /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD10AEA517C6166F00912CDA /* IAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10AE9917C6144C00912CDA /* IAPHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD10AEA617C6166F00912CDA /* InAppRageIAPHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD10AE9B17C6144C00912CDA /* InAppRageIAPHelper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		DD10AEA817C6174700912CDA /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD10AEA717C6174700912CDA /* Security.framework */; };
+		DD10AEAA17C6175900912CDA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD10AEA917C6175900912CDA /* CFNetwork.framework */; };
+		DD10AEAC17C6176E00912CDA /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD10AEAB17C6176E00912CDA /* SystemConfiguration.framework */; };
+		DD1FEDEF17C47BBD00C1DA7C /* DatabaseSqlite.m in Sources */ = {isa = PBXBuildFile; fileRef = DD1FEDEE17C47A6700C1DA7C /* DatabaseSqlite.m */; };
+		DD1FEDF217C47E5200C1DA7C /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DD1FEDF117C47E5200C1DA7C /* libsqlite3.0.dylib */; };
+		DD1FEDF317C482ED00C1DA7C /* NoteContacts.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = DD1FEDEC17C47A3900C1DA7C /* NoteContacts.sqlite */; };
+		DD1FEDF517C491CE00C1DA7C /* plus-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1FEDF417C491CE00C1DA7C /* plus-icon.png */; };
+		DD2D639B17BE286300DE4CA2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D639A17BE286300DE4CA2 /* UIKit.framework */; };
+		DD2D639D17BE286300DE4CA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D639C17BE286300DE4CA2 /* Foundation.framework */; };
+		DD2D639F17BE286300DE4CA2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D639E17BE286300DE4CA2 /* CoreGraphics.framework */; };
+		DD2D63A517BE286300DE4CA2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63A317BE286300DE4CA2 /* InfoPlist.strings */; };
+		DD2D63A717BE286300DE4CA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D63A617BE286300DE4CA2 /* main.m */; };
+		DD2D63AB17BE286300DE4CA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D63AA17BE286300DE4CA2 /* AppDelegate.m */; };
+		DD2D63AD17BE286300DE4CA2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63AC17BE286300DE4CA2 /* Default.png */; };
+		DD2D63AF17BE286400DE4CA2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63AE17BE286400DE4CA2 /* Default@2x.png */; };
+		DD2D63B117BE286400DE4CA2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63B017BE286400DE4CA2 /* Default-568h@2x.png */; };
+		DD2D63B417BE286400DE4CA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D63B317BE286400DE4CA2 /* ViewController.m */; };
+		DD2D63B717BE286400DE4CA2 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63B517BE286400DE4CA2 /* ViewController_iPhone.xib */; };
+		DD2D63BA17BE286400DE4CA2 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63B817BE286400DE4CA2 /* ViewController_iPad.xib */; };
+		DD2D63C117BE290400DE4CA2 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D63C017BE290400DE4CA2 /* AddressBook.framework */; };
+		DD2D63C317BE2A9B00DE4CA2 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD2D63C217BE2A9B00DE4CA2 /* AddressBookUI.framework */; };
+		DD2D63C717BE302800DE4CA2 /* NotesContactVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D63C517BE302700DE4CA2 /* NotesContactVC.m */; };
+		DD2D63C817BE302800DE4CA2 /* NotesContactVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63C617BE302800DE4CA2 /* NotesContactVC.xib */; };
+		DD2D63CC17BE304600DE4CA2 /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D63CA17BE304600DE4CA2 /* ShareViewController.m */; };
+		DD2D63CD17BE304600DE4CA2 /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63CB17BE304600DE4CA2 /* ShareViewController.xib */; };
+		DD2D63D117BE305C00DE4CA2 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD2D63CF17BE305C00DE4CA2 /* MoreViewController.m */; };
+		DD2D63D217BE305C00DE4CA2 /* MoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63D017BE305C00DE4CA2 /* MoreViewController.xib */; };
+		DD2D63DC17BE421100DE4CA2 /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = DD2D63DB17BE421100DE4CA2 /* 12.png */; };
+		DD9C478717BE524000161A97 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD9C478617BE524000161A97 /* MessageUI.framework */; };
+		DDD9EA2E17C1FA860061F8E8 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD9EA2C17C1FA210061F8E8 /* ContactViewController.m */; };
+		DDD9EA2F17C1FAF30061F8E8 /* ContactViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDD9EA2D17C1FA220061F8E8 /* ContactViewController.xib */; };
+		DDD9EA3317C1FB810061F8E8 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DDD9EA3217C1FB5A0061F8E8 /* Person.m */; };
+		DDD9EA3517C2226C0061F8E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDD9EA3417C2226C0061F8E8 /* QuartzCore.framework */; };
+		DDE32C5917C5EB53006AEFBE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDE32C5817C5EB53006AEFBE /* Social.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DD06167F17C348DC00177086 /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		DD06168117C36BCB00177086 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		DD06168317C377E500177086 /* original.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = original.jpeg; sourceTree = "<group>"; };
+		DD10AE9817C6144C00912CDA /* IAPHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IAPHelper.h; sourceTree = "<group>"; };
+		DD10AE9917C6144C00912CDA /* IAPHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IAPHelper.m; sourceTree = "<group>"; };
+		DD10AE9A17C6144C00912CDA /* InAppRageIAPHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InAppRageIAPHelper.h; sourceTree = "<group>"; };
+		DD10AE9B17C6144C00912CDA /* InAppRageIAPHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InAppRageIAPHelper.m; sourceTree = "<group>"; };
+		DD10AE9C17C6144C00912CDA /* MBProgressHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		DD10AE9D17C6144C00912CDA /* MBProgressHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		DD10AE9E17C6144C00912CDA /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DD10AE9F17C6144C00912CDA /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		DD10AEA017C615AB00912CDA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		DD10AEA717C6174700912CDA /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		DD10AEA917C6175900912CDA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DD10AEAB17C6176E00912CDA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DD1FEDEC17C47A3900C1DA7C /* NoteContacts.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = NoteContacts.sqlite; sourceTree = "<group>"; };
+		DD1FEDED17C47A6700C1DA7C /* DatabaseSqlite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DatabaseSqlite.h; sourceTree = "<group>"; };
+		DD1FEDEE17C47A6700C1DA7C /* DatabaseSqlite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DatabaseSqlite.m; sourceTree = "<group>"; };
+		DD1FEDF017C47CCB00C1DA7C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		DD1FEDF117C47E5200C1DA7C /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		DD1FEDF417C491CE00C1DA7C /* plus-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-icon.png"; sourceTree = "<group>"; };
+		DD2D639717BE286300DE4CA2 /* NoteContactAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteContactAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD2D639A17BE286300DE4CA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DD2D639C17BE286300DE4CA2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DD2D639E17BE286300DE4CA2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DD2D63A217BE286300DE4CA2 /* NoteContactAPP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoteContactAPP-Info.plist"; sourceTree = "<group>"; };
+		DD2D63A417BE286300DE4CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DD2D63A617BE286300DE4CA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD2D63A817BE286300DE4CA2 /* NoteContactAPP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoteContactAPP-Prefix.pch"; sourceTree = "<group>"; };
+		DD2D63A917BE286300DE4CA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD2D63AA17BE286300DE4CA2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD2D63AC17BE286300DE4CA2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DD2D63AE17BE286400DE4CA2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DD2D63B017BE286400DE4CA2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DD2D63B217BE286400DE4CA2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD2D63B317BE286400DE4CA2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD2D63B617BE286400DE4CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		DD2D63B917BE286400DE4CA2 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		DD2D63C017BE290400DE4CA2 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		DD2D63C217BE2A9B00DE4CA2 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		DD2D63C417BE302700DE4CA2 /* NotesContactVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotesContactVC.h; sourceTree = "<group>"; };
+		DD2D63C517BE302700DE4CA2 /* NotesContactVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotesContactVC.m; sourceTree = "<group>"; };
+		DD2D63C617BE302800DE4CA2 /* NotesContactVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotesContactVC.xib; sourceTree = "<group>"; };
+		DD2D63C917BE304600DE4CA2 /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		DD2D63CA17BE304600DE4CA2 /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		DD2D63CB17BE304600DE4CA2 /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		DD2D63CE17BE305C00DE4CA2 /* MoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoreViewController.h; sourceTree = "<group>"; };
+		DD2D63CF17BE305C00DE4CA2 /* MoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoreViewController.m; sourceTree = "<group>"; };
+		DD2D63D017BE305C00DE4CA2 /* MoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MoreViewController.xib; sourceTree = "<group>"; };
+		DD2D63DB17BE421100DE4CA2 /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		DD9C478617BE524000161A97 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		DDD9EA2B17C1FA210061F8E8 /* ContactViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ContactViewController.h; path = ../ContactViewController.h; sourceTree = "<group>"; };
+		DDD9EA2C17C1FA210061F8E8 /* ContactViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ContactViewController.m; path = ../ContactViewController.m; sourceTree = "<group>"; };
+		DDD9EA2D17C1FA220061F8E8 /* ContactViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ContactViewController.xib; path = ../ContactViewController.xib; sourceTree = "<group>"; };
+		DDD9EA3117C1FB5A0061F8E8 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DDD9EA3217C1FB5A0061F8E8 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DDD9EA3417C2226C0061F8E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DDE32C5817C5EB53006AEFBE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD2D639417BE286300DE4CA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD10AEAC17C6176E00912CDA /* SystemConfiguration.framework in Frameworks */,
+				DD10AEAA17C6175900912CDA /* CFNetwork.framework in Frameworks */,
+				DD10AEA817C6174700912CDA /* Security.framework in Frameworks */,
+				DD10AEA117C615AB00912CDA /* StoreKit.framework in Frameworks */,
+				DDE32C5917C5EB53006AEFBE /* Social.framework in Frameworks */,
+				DD1FEDF217C47E5200C1DA7C /* libsqlite3.0.dylib in Frameworks */,
+				DDD9EA3517C2226C0061F8E8 /* QuartzCore.framework in Frameworks */,
+				DD9C478717BE524000161A97 /* MessageUI.framework in Frameworks */,
+				DD2D63C317BE2A9B00DE4CA2 /* AddressBookUI.framework in Frameworks */,
+				DD2D63C117BE290400DE4CA2 /* AddressBook.framework in Frameworks */,
+				DD2D639B17BE286300DE4CA2 /* UIKit.framework in Frameworks */,
+				DD2D639D17BE286300DE4CA2 /* Foundation.framework in Frameworks */,
+				DD2D639F17BE286300DE4CA2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD1FEDF617C4A8B500C1DA7C /* DetailOfContactViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9EA2B17C1FA210061F8E8 /* ContactViewController.h */,
+				DDD9EA2C17C1FA210061F8E8 /* ContactViewController.m */,
+				DDD9EA2D17C1FA220061F8E8 /* ContactViewController.xib */,
+			);
+			name = DetailOfContactViewController;
+			sourceTree = "<group>";
+		};
+		DD2D638E17BE286300DE4CA2 = {
+			isa = PBXGroup;
+			children = (
+				DD10AEAB17C6176E00912CDA /* SystemConfiguration.framework */,
+				DD10AEA917C6175900912CDA /* CFNetwork.framework */,
+				DD10AEA717C6174700912CDA /* Security.framework */,
+				DD10AE9817C6144C00912CDA /* IAPHelper.h */,
+				DD10AE9917C6144C00912CDA /* IAPHelper.m */,
+				DD10AE9A17C6144C00912CDA /* InAppRageIAPHelper.h */,
+				DD10AE9B17C6144C00912CDA /* InAppRageIAPHelper.m */,
+				DD10AE9C17C6144C00912CDA /* MBProgressHUD.h */,
+				DD10AE9D17C6144C00912CDA /* MBProgressHUD.m */,
+				DD10AE9E17C6144C00912CDA /* Reachability.h */,
+				DD10AE9F17C6144C00912CDA /* Reachability.m */,
+				DD1FEDF417C491CE00C1DA7C /* plus-icon.png */,
+				DD1FEDF117C47E5200C1DA7C /* libsqlite3.0.dylib */,
+				DD1FEDF017C47CCB00C1DA7C /* Constants.h */,
+				DD1FEDED17C47A6700C1DA7C /* DatabaseSqlite.h */,
+				DD1FEDEE17C47A6700C1DA7C /* DatabaseSqlite.m */,
+				DD1FEDEC17C47A3900C1DA7C /* NoteContacts.sqlite */,
+				DD06168317C377E500177086 /* original.jpeg */,
+				DD06167F17C348DC00177086 /* 13.png */,
+				DD06168117C36BCB00177086 /* love.png */,
+				DD2D63DB17BE421100DE4CA2 /* 12.png */,
+				DD2D63A017BE286300DE4CA2 /* NoteContactAPP */,
+				DD2D639917BE286300DE4CA2 /* Frameworks */,
+				DD2D639817BE286300DE4CA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD2D639817BE286300DE4CA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D639717BE286300DE4CA2 /* NoteContactAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD2D639917BE286300DE4CA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDE32C5817C5EB53006AEFBE /* Social.framework */,
+				DDD9EA3417C2226C0061F8E8 /* QuartzCore.framework */,
+				DD9C478617BE524000161A97 /* MessageUI.framework */,
+				DD2D63C217BE2A9B00DE4CA2 /* AddressBookUI.framework */,
+				DD2D63C017BE290400DE4CA2 /* AddressBook.framework */,
+				DD10AEA017C615AB00912CDA /* StoreKit.framework */,
+				DD2D639A17BE286300DE4CA2 /* UIKit.framework */,
+				DD2D639C17BE286300DE4CA2 /* Foundation.framework */,
+				DD2D639E17BE286300DE4CA2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD2D63A017BE286300DE4CA2 /* NoteContactAPP */ = {
+			isa = PBXGroup;
+			children = (
+				DDD9EA3117C1FB5A0061F8E8 /* Person.h */,
+				DDD9EA3217C1FB5A0061F8E8 /* Person.m */,
+				DD2D63A917BE286300DE4CA2 /* AppDelegate.h */,
+				DD2D63AA17BE286300DE4CA2 /* AppDelegate.m */,
+				DD2D63D617BE30A900DE4CA2 /* ViewController */,
+				DD2D63D517BE309500DE4CA2 /* NotesViewController */,
+				DD2D63D417BE307C00DE4CA2 /* ShareViewController */,
+				DD2D63D317BE306300DE4CA2 /* MoreViewController */,
+				DD1FEDF617C4A8B500C1DA7C /* DetailOfContactViewController */,
+				DD2D63A117BE286300DE4CA2 /* Supporting Files */,
+			);
+			path = NoteContactAPP;
+			sourceTree = "<group>";
+		};
+		DD2D63A117BE286300DE4CA2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D63A217BE286300DE4CA2 /* NoteContactAPP-Info.plist */,
+				DD2D63A317BE286300DE4CA2 /* InfoPlist.strings */,
+				DD2D63A617BE286300DE4CA2 /* main.m */,
+				DD2D63A817BE286300DE4CA2 /* NoteContactAPP-Prefix.pch */,
+				DD2D63AC17BE286300DE4CA2 /* Default.png */,
+				DD2D63AE17BE286400DE4CA2 /* Default@2x.png */,
+				DD2D63B017BE286400DE4CA2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD2D63D317BE306300DE4CA2 /* MoreViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D63CE17BE305C00DE4CA2 /* MoreViewController.h */,
+				DD2D63CF17BE305C00DE4CA2 /* MoreViewController.m */,
+				DD2D63D017BE305C00DE4CA2 /* MoreViewController.xib */,
+			);
+			name = MoreViewController;
+			sourceTree = "<group>";
+		};
+		DD2D63D417BE307C00DE4CA2 /* ShareViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D63C917BE304600DE4CA2 /* ShareViewController.h */,
+				DD2D63CA17BE304600DE4CA2 /* ShareViewController.m */,
+				DD2D63CB17BE304600DE4CA2 /* ShareViewController.xib */,
+			);
+			name = ShareViewController;
+			sourceTree = "<group>";
+		};
+		DD2D63D517BE309500DE4CA2 /* NotesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D63C417BE302700DE4CA2 /* NotesContactVC.h */,
+				DD2D63C517BE302700DE4CA2 /* NotesContactVC.m */,
+				DD2D63C617BE302800DE4CA2 /* NotesContactVC.xib */,
+			);
+			name = NotesViewController;
+			sourceTree = "<group>";
+		};
+		DD2D63D617BE30A900DE4CA2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DD2D63B217BE286400DE4CA2 /* ViewController.h */,
+				DD2D63B317BE286400DE4CA2 /* ViewController.m */,
+				DD2D63B517BE286400DE4CA2 /* ViewController_iPhone.xib */,
+				DD2D63B817BE286400DE4CA2 /* ViewController_iPad.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD2D639617BE286300DE4CA2 /* NoteContactAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD2D63BD17BE286400DE4CA2 /* Build configuration list for PBXNativeTarget "NoteContactAPP" */;
+			buildPhases = (
+				DD2D639317BE286300DE4CA2 /* Sources */,
+				DD2D639417BE286300DE4CA2 /* Frameworks */,
+				DD2D639517BE286300DE4CA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteContactAPP;
+			productName = NoteContactAPP;
+			productReference = DD2D639717BE286300DE4CA2 /* NoteContactAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD2D638F17BE286300DE4CA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Smartbuzz;
+			};
+			buildConfigurationList = DD2D639217BE286300DE4CA2 /* Build configuration list for PBXProject "NoteContactAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DD2D638E17BE286300DE4CA2;
+			productRefGroup = DD2D639817BE286300DE4CA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD2D639617BE286300DE4CA2 /* NoteContactAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD2D639517BE286300DE4CA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD1FEDF317C482ED00C1DA7C /* NoteContacts.sqlite in Resources */,
+				DDD9EA2F17C1FAF30061F8E8 /* ContactViewController.xib in Resources */,
+				DD2D63A517BE286300DE4CA2 /* InfoPlist.strings in Resources */,
+				DD2D63AD17BE286300DE4CA2 /* Default.png in Resources */,
+				DD2D63AF17BE286400DE4CA2 /* Default@2x.png in Resources */,
+				DD2D63B117BE286400DE4CA2 /* Default-568h@2x.png in Resources */,
+				DD2D63B717BE286400DE4CA2 /* ViewController_iPhone.xib in Resources */,
+				DD2D63BA17BE286400DE4CA2 /* ViewController_iPad.xib in Resources */,
+				DD2D63C817BE302800DE4CA2 /* NotesContactVC.xib in Resources */,
+				DD2D63CD17BE304600DE4CA2 /* ShareViewController.xib in Resources */,
+				DD2D63D217BE305C00DE4CA2 /* MoreViewController.xib in Resources */,
+				DD2D63DC17BE421100DE4CA2 /* 12.png in Resources */,
+				DD06168017C348DC00177086 /* 13.png in Resources */,
+				DD06168217C36BCB00177086 /* love.png in Resources */,
+				DD06168417C377E500177086 /* original.jpeg in Resources */,
+				DD1FEDF517C491CE00C1DA7C /* plus-icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD2D639317BE286300DE4CA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD10AEA517C6166F00912CDA /* IAPHelper.m in Sources */,
+				DD10AEA617C6166F00912CDA /* InAppRageIAPHelper.m in Sources */,
+				DD10AEA317C6163300912CDA /* MBProgressHUD.m in Sources */,
+				DD10AEA417C6163300912CDA /* Reachability.m in Sources */,
+				DD1FEDEF17C47BBD00C1DA7C /* DatabaseSqlite.m in Sources */,
+				DDD9EA3317C1FB810061F8E8 /* Person.m in Sources */,
+				DDD9EA2E17C1FA860061F8E8 /* ContactViewController.m in Sources */,
+				DD2D63A717BE286300DE4CA2 /* main.m in Sources */,
+				DD2D63AB17BE286300DE4CA2 /* AppDelegate.m in Sources */,
+				DD2D63B417BE286400DE4CA2 /* ViewController.m in Sources */,
+				DD2D63C717BE302800DE4CA2 /* NotesContactVC.m in Sources */,
+				DD2D63CC17BE304600DE4CA2 /* ShareViewController.m in Sources */,
+				DD2D63D117BE305C00DE4CA2 /* MoreViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DD2D63A317BE286300DE4CA2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2D63A417BE286300DE4CA2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DD2D63B517BE286400DE4CA2 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2D63B617BE286400DE4CA2 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		DD2D63B817BE286400DE4CA2 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD2D63B917BE286400DE4CA2 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD2D63BB17BE286400DE4CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amrit Bains (MN3P7M62G6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amrit Bains (MN3P7M62G6)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "A1C49F1F-F412-42DC-9901-4E92721A5EB3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A1C49F1F-F412-42DC-9901-4E92721A5EB3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD2D63BC17BE286400DE4CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Amrit Bains (MN3P7M62G6)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Amrit Bains (MN3P7M62G6)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "A1C49F1F-F412-42DC-9901-4E92721A5EB3";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "A1C49F1F-F412-42DC-9901-4E92721A5EB3";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD2D63BE17BE286400DE4CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteContactAPP/NoteContactAPP-Prefix.pch";
+				INFOPLIST_FILE = "NoteContactAPP/NoteContactAPP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DD2D63BF17BE286400DE4CA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoteContactAPP/NoteContactAPP-Prefix.pch";
+				INFOPLIST_FILE = "NoteContactAPP/NoteContactAPP-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD2D639217BE286300DE4CA2 /* Build configuration list for PBXProject "NoteContactAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2D63BB17BE286400DE4CA2 /* Debug */,
+				DD2D63BC17BE286400DE4CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD2D63BD17BE286400DE4CA2 /* Build configuration list for PBXNativeTarget "NoteContactAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD2D63BE17BE286400DE4CA2 /* Debug */,
+				DD2D63BF17BE286400DE4CA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD2D638F17BE286300DE4CA2 /* Project object */;
+}
